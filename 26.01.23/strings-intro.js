@@ -82,7 +82,7 @@ console.log( "regular expression:", myStringWidget.search(/\bid\b/) ); // 12
 
 let niceName = "Victor";
 console.log( niceName[0] ); // V (erster Buchstabe)
-niceName[0] = "W";
+// niceName[0] = "W";
 console.log( niceName );
 
 

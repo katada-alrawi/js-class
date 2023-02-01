@@ -79,3 +79,25 @@ console.log(früchte); // [ 'mehrere', 'sachen', 'Gurke', 'apfel', 'birne', 'erd
 
 // mit shift() kann ich am Anfang eines Arrays Elemente löschen
 früchte.shift();
+console.log(früchte); // [ 'sachen', 'Gurke', 'apfel', 'birne', 'erdbeere' ]
+
+früchte.shift();
+früchte.shift();
+console.log(früchte); // [ 'apfel', 'birne', 'erdbeere' ]
+
+früchte.pop()
+früchte.pop()
+früchte.pop()
+console.log(früchte) // []
+
+// reverse()
+let zahlen = [0, 1, 2, 3];
+zahlen.reverse();
+console.log(zahlen); // [ 3, 2, 1, 0 ]
+
+// Komplizierteres Beispiel:
+// index         0       1       2           3
+let gemischt2 = [true, "mango", -200, ["niels", "abc"]];
+gemischt2.reverse() // [ [ 'niels', 'abc' ], -200, 'mango', true ]
+console.log(gemischt2[0][0]); // niels
+
